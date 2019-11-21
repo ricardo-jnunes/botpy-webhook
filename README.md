@@ -4,7 +4,9 @@ A python bot with slack webhook integration
 ### Objective
 ------------
 A bot that has integration with slack, with it is possible to fetch information from the environments.
+
 Some integrations:
+- Slack
 - Dynatrace Dashboards Info
 
 ### Requirements:
