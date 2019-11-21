@@ -1,4 +1,0 @@
-hatterbot
-chatterbot_corpus
-slackclient
-websocket-client

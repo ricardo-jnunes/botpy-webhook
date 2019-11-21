@@ -1,1 +1,1 @@
-from src import hello
+from src import slackclient
