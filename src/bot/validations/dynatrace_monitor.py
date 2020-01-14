@@ -47,6 +47,7 @@ def get_environment_data():
             token = extract_data(p.content)
 
             # With a valid session, we get the dashboards of dynatrace that we want
+            # Use the payload received from Dynatrace to build the dashboard
             payloadmon1 = {}
             payloadmon2 = {}
             r1 = s.post('https://dynatrace.xxxxxx.com.br/rest/charts?sessionid=live-xxxxxx&timeframe=Offset_1_HOURS&resolution=CHART_RESOLUTION_1MIN&limit=41', data=json.dumps(payloadmon1),headers={"Content-Type": "application/json","X-XSRF-Header": token})
